@@ -3,9 +3,17 @@ import './style.css';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
+
 const firebaseConfig = {
-  // your config
+  apiKey: "AIzaSyBNaK2VvNj_EzJB4hbXkx82JXKO-h6E7Gw",
+  authDomain: "zcomponents-fac7b.firebaseapp.com",
+  projectId: "zcomponents-fac7b",
+  storageBucket: "zcomponents-fac7b.appspot.com",
+  messagingSenderId: "875735286733",
+  appId: "1:875735286733:web:5c7223a2e4ce00d7567a84",
+  measurementId: "G-85JN6X7S12"
 };
+
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
